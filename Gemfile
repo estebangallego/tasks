@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 gem 'hirb'
 gem 'launchy'
-
+gem 'rails-footnotes'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.8'
@@ -34,6 +34,7 @@ group :development, :test do
 	gem 'guard-rspec'
 	# gem 'growl_notify'
 end
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
